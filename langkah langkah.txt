@@ -1,0 +1,13 @@
+1.	Inisialisasi repository dengan perintah:
+git init
+2.	Tambahkan File ke Staging Area:
+git add .   
+3.	Commit Perubahan:
+Lakukan commit perubahan dengan perintah:
+git commit -m "Deskripsi perubahan"
+4.	Hubungkan Repository Lokal dengan GitHub:
+Tambahkan URL repository GitHub sebagai remote dengan perintah:
+git remote add origin [URL_repository_GitHub]
+5.	Unggah Perubahan ke GitHub:
+Gunakan perintah berikut untuk mengunggah perubahan ke GitHub:
+git push -u origin master  / main
