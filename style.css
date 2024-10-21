@@ -1,0 +1,39 @@
+body{
+   background-color: blue;
+  
+}
+.container{
+    contain: content;
+    width: 800px;
+    margin: auto;
+    background-color: aqua;
+}
+.header h1{
+    font-style: italic;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.header ul li{
+    display:inline-block;
+    margin-left: 20px;
+}
+.cover{
+    height: 300px;
+    background-image:url(bgkl.jpeg);
+}
+.content h1{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.content h4 {
+    margin-left: 20px;
+     
+}
+.content p{
+    margin-left: 20px;
+    
+}
+.footer p{
+    text-align: center;
+    font-size: 18px;
+}
