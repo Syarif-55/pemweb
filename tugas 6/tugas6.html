@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial ,Sans-serif;
+        }
+        #message{
+            margin-top: 20px;
+            font-weight: bold;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selamat Datang di Halaman Javascript</h1>
+    <p>Silahkan masukkan nama</p>
+    <input type="text" id="namaInput" placeholder="Nama Anda">
+    <button id="greetButton">Sapa saya</button>
+    <div id="message"></div>
+    <script>
+        const greetButton =document.getElementById("greetButton");
+        const namaInput =document.getElementById("namaInput");
+        const messageDiv =document.getElementById("message");
+
+        greetButton.addEventListener("click", function() {
+           const nama =namaInput.value;
+           if (nama){
+            messageDiv.innerText="Halo ,"+ nama +"! SELAMAT DATANG";
+           } else{
+            messageDiv.innerText="Silakan Masukan Nama Anda ."
+           }
+        });
+    </script>
+</body>
+</html>
